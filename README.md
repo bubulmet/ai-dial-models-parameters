@@ -20,7 +20,10 @@ By completing these tasks, you will learn:
 
 1. **Install dependencies:**
    ```bash
-   pip install -r requirements.txt
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip3 install -r requirements.txt
+   deactivate
    ```
 
 2. **Set your API key:**
